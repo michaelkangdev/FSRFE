@@ -30,10 +30,10 @@ export const JobTable = ({jobs}) => {
               <TableCell component="th" scope="row">
                 {row.company}
               </TableCell>
-              <TableCell align="right">{row.title}</TableCell>
+              <TableCell align="right">{row.company}</TableCell>
               <TableCell align="right">{row.position}</TableCell>
               <TableCell align="right">{row.location}</TableCell>
-              <TableCell align="right">{row.job_type}</TableCell>
+              <TableCell align="right">{row.contract}</TableCell>
             </TableRow>
           ))}
         </TableBody>

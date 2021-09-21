@@ -9,7 +9,7 @@ function App() {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    fetch('http://54.153.139.15/api/jobs').then(
+    fetch('https://api.47x47x.com/api/jobs').then(
       response => response.json().then(data => {
         setJobs(data);
       })
